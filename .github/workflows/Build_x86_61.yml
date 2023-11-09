@@ -144,5 +144,5 @@ jobs:
         # jar cf X86-Full-6.1-$(date +%Y%m%d).zip *
         # cd ..       
         # python diy/aliupload.py --token "${{ secrets.ALIYUN_TOKEN }}" --uploadFloder "OpenWrt/X86_64/X86/6.1" --file "X86_Out/X86-Full-6.1-$(date +%Y%m%d).zip"  
-        python diy/aliupload.py --token "${{ secrets.ALIYUN_TOKEN }}" --uploadFloder "OpenWrt/X86_64/X86/6.1" --file "X86_Out/X86-Full-6.1-$(date +%Y%m%d).zip"  
+        # python diy/aliupload.py --token "${{ secrets.ALIYUN_TOKEN }}" --uploadFloder "OpenWrt/X86_64/X86/6.1" --file "X86_Out/X86-Full-6.1-$(date +%Y%m%d).zip"  
         
